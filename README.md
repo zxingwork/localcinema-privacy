@@ -5,7 +5,14 @@
 - 隐私政策页面：<https://zxingwork.github.io/localcinema-privacy/privacy.html>
 - 根地址（自动跳转）：<https://zxingwork.github.io/localcinema-privacy/>
 
-政策正文的源文件在应用仓库的 `privacy.html` / `store/privacy.md`，改完同步到这里即可。
+> **发布分支是 `gh-pages`。** GitHub 认这个分支名自动发布 Pages；`main` 只是同一份内容的镜像，
+> 方便在仓库首页直接看到最新内容，**改动请推 `gh-pages`**（或在应用仓库里跑 `node store/publish-privacy.mjs`）。
+
+政策正文的源文件在应用仓库的 `privacy.html` / `store/privacy.md`，改完后跑一次：
+
+```powershell
+node store/publish-privacy.mjs
+```
 
 ## 一句话内容
 
